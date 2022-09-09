@@ -16,19 +16,22 @@ h4 {
 
 .recipe_title {
     margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 body { 
     background-color: #aec1e6;
 }
-p { 
+
+/* p { 
    text-align: center;
    display: block;
    margin-block-start: 1em;
    margin-block-end: 1em;
    margin-inline-start: 0px;
    margin-inline-end: 0px;
-} 
+} */
+
 img[print]{
     color: #6c757d ;
     text-decoration: none;
@@ -81,7 +84,13 @@ ul li {
     padding-inline-start: 40px;
 }
 
-div { 
+/* div { 
     display: inline;
     text-align: center;
+} */
+
+.shadow {
+    box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
 }
