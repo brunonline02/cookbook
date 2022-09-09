@@ -14,9 +14,11 @@ h4 {
     margin: 30px;
 }
 
-.recipe_title {
+.recipe_title_style {
     margin-top: 100px;
     margin-bottom: 60px;
+    color: #7c7c5d;
+        
 }
 
 body { 
@@ -93,4 +95,15 @@ ul li {
     box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
+}
+
+
+
+.footer-containter {
+    background-color: #ffffff;
+    width: 90%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
